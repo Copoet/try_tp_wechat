@@ -21,7 +21,7 @@
 调用：
     $Wechat = WechatServices::getinstance();
 接入接口说明：
-     http_curl：使用curl请求方式
+     http_curl：使用curl请求方式</br>
      checkSignature：签名检测
      getAccessToken：获取全局使用token(此接口可修改token的保存方式)
      getUserWebAuth：网页授权跳转
