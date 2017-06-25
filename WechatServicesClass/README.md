@@ -1,5 +1,5 @@
-﻿##  微信公众号接入类
-##  配置：(### 也可以使用配置文件加载方式)
+﻿###  微信公众号接入类
+###  配置：(也可以使用配置文件加载方式)
 ```/**
      * 公众帐号appid
      *
@@ -19,9 +19,9 @@
      */
     private $token = 'weixin';
 ```
-## 调用：
+### 调用：
     $Wechat = WechatServices::getinstance();
-## 接入接口说明：
+### 接入接口说明：
      http_curl：使用curl请求方式
      checkSignature：签名检测
      getAccessToken：获取全局使用token(此接口可修改token的保存方式)
